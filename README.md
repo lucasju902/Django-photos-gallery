@@ -75,7 +75,3 @@ To cleanup the sample data delete the sql lite database and the media folder fil
 
 ## No validation on the form
 This is sample. I decided to keep it simple and let the validation to be added by you.
-
-## Sharing is Caring
-
-Star if you like it :)
