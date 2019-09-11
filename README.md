@@ -1,4 +1,4 @@
-# Django Photo Gallery#
+# Django Photo Gallery #
 
 ## Summary
 
