@@ -52,24 +52,3 @@ Albums can be created from the Django admin panel where one zip file with all th
 
 ## Features
 
-This Sample illustrates the following concepts on top of the Django Framework:
-
-- Using django-material and materializecss for building Django UI.
-- Using django-imagekit for building resizing images.
-- Using photoswipe javascript library for more rich image gallery user experience.
-
-## Control the image size and quality
-The picture size and quality can be controlled programatically from the models.py. Just change the processors. For more information see [django-imagekit](https://github.com/matthewwithanm/django-imagekit).
-
-```python
-class AlbumImage(models.Model):
-    image = ProcessedImageField(upload_to='albums', processors=[ResizeToFit(1280)], format='JPEG', options={'quality': 70})
-    thumb = ProcessedImageField(upload_to='albums', processors=[ResizeToFit(300)], format='JPEG', options={'quality': 80})
-    ...
-```
-
-## Sample data cleanup
-To cleanup the sample data delete the sql lite database and the media folder files. Create new database and run the sample again.
-
-## No validation on the form
-This is sample. I decided to keep it simple and let the validation to be added by you.
