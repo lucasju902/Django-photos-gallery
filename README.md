@@ -49,6 +49,3 @@ Albums can be created from the Django admin panel where one zip file with all th
     - `python manage.py runserver`
     - Open http://127.0.0.1:8000/ in web browser.
     - To access the admin forms go to http://127.0.0.1:8000/admin/ and enter user: admin, password: administrator
-
-## Features
-
